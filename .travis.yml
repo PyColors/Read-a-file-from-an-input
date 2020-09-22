@@ -1,0 +1,15 @@
+language: node_js
+
+os: osx
+
+node_js:
+  - 10
+  - 8
+  
+script:
+  - npm run build:prod
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
