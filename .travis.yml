@@ -7,7 +7,7 @@ node_js:
   - 8
   
 script:
-  - npm run build:prod
+  - yarn run build:prod
 
 cache:
   yarn: true
